@@ -37,14 +37,14 @@ To start the server, execute the following command:
       ./server
 
 ### Sending Messages
-# To send a message from the client to the server, use the following command:
+### To send a message from the client to the server, use the following command:
      ./client [server PID] [message]
 
-# Start the server
+### Start the server
       ./server
 The server will output its process ID (PID), for example, 12345.
 
-# Sent a message from the client
+### Sent a message from the client
         ./client 12345 "Hello, Server!"
 This command will send the message "Hello, Server!" to the server with PID 12345.
 
