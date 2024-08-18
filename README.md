@@ -42,11 +42,11 @@ To start the server, execute the following command:
 
 # Start the server
       ./server
-*The server will output its process ID (PID), for example, 12345.*
+The server will output its process ID (PID), for example, 12345.
 
 # Sent a message from the client
         ./client 12345 "Hello, Server!"
-*This command will send the message "Hello, Server!" to the server with PID 12345.*
+This command will send the message "Hello, Server!" to the server with PID 12345.
 
 ## Algorithm Overview
 
